@@ -10,12 +10,12 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    align-items: center;
+    margin-top: 6rem;
     justify-content: center;
     background-color: lightgray;
 }
 .form {
-    width: 65%;
+    width: 55%;
     height: 22rem;
     background-color: white;
     display: flex;
@@ -76,31 +76,43 @@ body {
 }
 .info {
     display: flex;
-    margin: auto;
-    gap: 5rem;
+    justify-content:flex-start;
+    margin-top: 10px;
+    gap: 1rem;
 
 }
 .info h3 {
     display: flex;
-    gap: 0.5rem;
+    margin: auto;
 }
+ 
+.info a {
+    display: flex;
+    text-decoration: underline;
+    margin: auto;
+}
+
+
+
 .btn {
     display: flex;
-    margin-left: 5rem;
     margin-bottom: 40px;
     justify-content: space-between;
-    margin-right: 12rem;
+    
 
 }
-.info a {
-    text-decoration: underline;
-}
 .btn .login {
-    background-color: blue;
+    width: 6rem;
+    background-color: red;
     color: white;
     border-radius: 5px;
+    margin-left: 7rem;
+    margin-top: 1rem;
 }
 .btn a {
+    margin-top: 1.3rem;
+    margin-left: 3rem;
+    margin-right: 5rem;
     text-decoration: underline;
-    margin-right: 3rem;
+
 }
