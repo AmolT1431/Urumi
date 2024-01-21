@@ -5,15 +5,18 @@
     text-decoration: none;
     border: 0;
     box-sizing: border-box;
+    
 }
 body {
     width: 100vw;
     height: 100vh;
     display: flex;
     margin-top: 6rem;
+    background-image: url("pp.jpg");
+    background-size: cover;
     justify-content: center;
-    background-color: lightgray;
 }
+
 .form {
     width: 35vmax;
     height: 21rem;
@@ -102,7 +105,7 @@ body {
     margin-top: 10px;
     border-radius: 5px;
     margin-left: 4rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   
 }
 .btn .login:hover{
     background-color: rgb(255, 115, 0);
